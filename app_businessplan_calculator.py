@@ -267,7 +267,7 @@ with st.expander("Temporalité"):
     delai_premiere_vente_souhaitee = st.number_input("Facultatif : Délai pour la première vente souhaitée (en mois)", min_value=0, max_value=60, value=0)
 
 # === Coûts de la prestation BAAX ===
-with st.expander("Coûts de la prestation BAAX"):
+with st.expander("Coût de la prestation BAAX"):
     cout_audit_mois1 = st.number_input("Coût audit mois 1 (€)", min_value=0, value=4000)
     cout_mensuel_mois2_3 = st.number_input("Coût mensuel mois 2-3 (€)", min_value=0, value=3000)
     cout_mensuel_fixe = st.number_input("Coût mensuel fixe à partir du mois 4 (€)", min_value=0, value=3000)
